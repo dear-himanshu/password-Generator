@@ -1,0 +1,162 @@
+body{
+    background-image: url("https://ik.imagekit.io/d9mvewbju/Course/BigbinaryAcademy/yellow-container-background_O_HTT_hh3.avif");
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+div{
+    /* border: 1px solid black; */
+}
+
+.container{
+    padding: 5px;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+
+.box1{
+    background-color: #FFF7D7;
+    border-radius: 5px ;
+    padding: 10px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 5px 1px rgb(168, 164, 164);
+}
+
+.sub_box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide{
+    display: flex;
+    /* width: 100%; */
+}
+
+
+
+.m1{
+    display: flex;
+}
+
+.box2{
+    display: flex;
+    line-height: 30px;
+    justify-content: center;
+}
+
+.b1{
+    width: 40%;
+    margin-right: 10px;
+}
+
+.b2{
+    width: 40%;
+    margin-left: 10px;
+
+}
+
+.b1 > p{
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.b2 > p{
+    font-weight: 700;
+    font-size: 17px;
+
+}
+
+.pass_input{
+    /* padding: 10px; */
+    /* width: 100; */
+    font-size: 25px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.copy_pass{
+    /* width: 30%; */
+    margin: auto;
+    height: 5vh;
+    background-color: #4CB051;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.copy_pass:hover{
+    background-color: #337a36;
+    color: rgb(255, 255, 255);
+}
+
+.inp_f{
+    display: flex;
+    background-color: #F5F5F5;
+    /* width: 10%; */
+}
+
+.gen_pass{
+    margin: auto;
+    height: 5vh;
+    background-color: #7ebaf3;
+    border: none;
+    border-radius: 4px;
+    /* border: 1px solid rgb(29, 175, 233); */
+    cursor: pointer;
+}
+
+.gen_pass:hover{
+    color: white;
+    background-color: rgb(12, 27, 70);
+}
+
+.len{
+    padding-right: 10px;
+}
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25px;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #4CB051;
+    border-bottom: 1px solid rgb(255, 255, 255) ;
+    margin-top: 5px;
+
+}
+
+@media screen and (max-width: 450px) {
+    .slide{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .box2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b1{
+        width: 80%;
+        margin: 0px;
+    }
+
+    .b2{
+        width: 80%;
+        margin: 0px;
+
+    }
+}
